@@ -1,0 +1,13 @@
+How to Run
+
+Train the model
+  cd ml_model/
+  python3 train.py
+  
+Start the intrusion detection system
+  cd ../intrusion_detection/
+  python3 detector.py
+  
+Activate honeypot monitoring
+  cd ../ransomware_defense/
+  python3 honeypot.py
