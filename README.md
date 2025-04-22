@@ -1,4 +1,4 @@
-# AI-IDS-Ransomware-Defense
+# IDS-Ransomware-Defense using ML
 
 
 This project is a hybrid AI-powered Intrusion Detection and Ransomware Mitigation System. It leverages machine learning models, packet inspection, and behavioral monitoring to detect and respond to network threats and ransomware activity.
