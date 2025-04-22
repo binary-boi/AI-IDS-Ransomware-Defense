@@ -1,0 +1,21 @@
+
+**1. NSL-KDD Dataset**
+
+- **Description:** Improved version of the original KDD Cup 1999 dataset, removing redundant records to make training/testing more reliable.
+- **Files used:** `KDDTrain+.txt`, `KDDTest+.txt`
+- **Download Page:**  
+  🔗 [https://www.unb.ca/cic/datasets/nsl.html](https://www.unb.ca/cic/datasets/nsl.html)  
+- **Direct Link (ZIP):**  
+  [NSL-KDD zip](https://www.unb.ca/cic/datasets/nsl/nsl-kdd-dataset.zip)
+
+---
+
+**2. CIC-IDS-2017 Dataset**
+
+- **Description:** Rich set of realistic network traffic covering DDoS, brute force, botnet, web attacks, and more.
+- **Recommended File:**  
+  `Friday-WorkingHours-Afternoon-DDos.pcap_ISCX.csv`
+- **Download Page:**  
+  🔗 [https://www.unb.ca/cic/datasets/ids-2017.html](https://www.unb.ca/cic/datasets/ids-2017.html)  
+- **Registration Required:** You’ll need to fill out a form to receive an email download link.
+- **Once registered:** Look for the CSV version of individual days or full `.pcap` and `.csv` files.
