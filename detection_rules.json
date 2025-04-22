@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "description": "Suspicious DNS traffic to public resolver",
+    "feature": "dst_port",
+    "operator": "==",
+    "value": 53
+  },
+  {
+    "id": 2,
+    "description": "Potential SYN Flood - large number of SYN packets",
+    "feature": "flags",
+    "operator": "==",
+    "value": "S"
+  },
+  {
+    "id": 3,
+    "description": "HTTP traffic on non-standard port (possible covert channel)",
+    "feature": "dst_port",
+    "operator": "in",
+    "value": [8080, 8000, 8888]
+  },
+  {
+    "id": 4,
+    "description": "Large outbound packet size (possible data exfiltration)",
+    "feature": "packet_size",
+    "operator": ">",
+    "value": 1400
+  },
+  {
+    "id": 5,
+    "description": "Traffic to known malicious IP (example only)",
+    "feature": "dst_ip",
+    "operator": "==",
+    "value": "45.33.32.156"
+  }
+]
