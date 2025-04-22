@@ -21,7 +21,7 @@ This project is a hybrid AI-powered Intrusion Detection and Ransomware Mitigatio
 
 ## 📁 Project Structure
 
-AI-IDS-Ransomware-Defense/ 
+IDS-Ransomware-Defense using ML/ 
 ├── data/                      # Datasets (CIC-IDS-2017, NSL-KDD)
 
 ├── ml_model/                  # Machine learning code
