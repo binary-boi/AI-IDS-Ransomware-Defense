@@ -23,15 +23,19 @@ This project is a hybrid AI-powered Intrusion Detection and Ransomware Mitigatio
 
 AI-IDS-Ransomware-Defense/ 
 ├── data/                      # Datasets (CIC-IDS-2017, NSL-KDD)
+
 ├── ml_model/                  # Machine learning code
 │   ├── train.py               # Train Random Forest + Autoencoder
 │   └── evaluate.py            # Test model performance
+
 ├── intrusion_detection/       # Real-time detection
 │   ├── detector.py            # Scapy-based packet sniffer
 │   └── rules/                 # Custom detection rules
+
 ├── ransomware_defense/        # Anti-ransomware tools
 │   ├── honeypot.py            # Decoy file monitor
-│   
+
+
 └── README.md                  # Project documentation
 
 
@@ -45,3 +49,16 @@ cd AI-IDS-Ransomware-Defense
 python3.11 -m venv tfenv
 source tfenv/bin/activate
 pip install -r requirements.txt
+
+Requirements
+Python 3.11+
+pandas, scikit-learn, tensorflow, scapy, watchdog, boto3
+Wireshark/tshark (optional for pcap analysis)
+
+License & Credits
+This project is for educational and demonstration purposes. I have created it as part of my Masters Research project at Saint Louis University 2025
+Inspired by real-world SOC operations and modern cybersecurity practices.
+
+Author
+Akshay Kumar Sankalapuram
+Cybersecurity Master's Student | Capture The Flag Competitor | Security+ Certified
